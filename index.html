@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+
+    <style>
+        .margin-top {
+            margin-top: 20px;
+        }
+    </style>
+    <title>Exercício Formulário Bootstrap</title>
+</head>
+<body>
+    <div class="container" style="width: 450px; margin-top: 80px">
+        <div class="row">
+            <div class="col">
+                <form>
+                    <h1 class="display-5">Formulário de cadastro</h1>
+                    <label class="form-label margin-top" for="nome">Nome</label>
+                    <input class="form-control" id="nome" type="text" />
+                    <label class="form-label margin-top" for="email">E-mail</label>
+                    <input class="form-control" id="email" type="email" />
+                    <label class="form-label margin-top" for="fone">Telefone</label>
+                    <input class="form-control" id="fone" type="tel" />
+                    <div class="d-flex justify-content-center margin-top">
+                        <div class="btn btn-primary">Enviar</div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
